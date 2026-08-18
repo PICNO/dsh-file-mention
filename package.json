@@ -1,0 +1,25 @@
+{
+  "name": "dsh-file-mention",
+  "version": "0.1.0",
+  "description": "Workspace file/folder picker plugin for the DSH (DeepSeek Harness) Web GUI: browse/search workspace files and insert an exact relative-path tag reference into the draft.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "file-picker",
+    "workspace"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  }
+}
